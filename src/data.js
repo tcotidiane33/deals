@@ -7,7 +7,7 @@ export const storeProducts = [
   {
     id: 1,
     title: "Google Pixel - Black",
-    img: "img/product-1.png",
+    img: "https://th.bing.com/th/id/OIP.PXcTmsCZAfLh3L3Uw2ao-gHaHa?w=214&h=214&c=7&r=0&o=5&pid=1.7",
     price: 10,
     company: "GOOGLE",
     info:
@@ -19,7 +19,7 @@ export const storeProducts = [
   {
     id: 2,
     title: "Samsung S7",
-    img: "img/product-2.png",
+    img: "https://th.bing.com/th/id/R.6f12e6bbad42833a8d9827926cf8398a?rik=c2qq9HoYd4TneA&pid=ImgRaw&r=0",
     price: 16,
     company: "SAMSUNG",
     info:
@@ -31,7 +31,7 @@ export const storeProducts = [
   {
     id: 3,
     title: "HTC 10 - Black",
-    img: "img/product-3.png",
+    img: "https://www.ephotozine.com/articles/htc-10-smartphone-review-29547/images/highres-HTC-10-Black-5_1467799437.jpg",
     price: 8,
     company: "htc",
     info:
@@ -43,7 +43,7 @@ export const storeProducts = [
   {
     id: 4,
     title: "HTC 10 - White",
-    img: "img/product-4.png",
+    img: "https://th.bing.com/th/id/R.270a6830b93a813a4792175a1ea28255?rik=Ds85DlhKALzmNw&pid=ImgRaw&r=0",
     price: 18,
     company: "htc",
     info:
@@ -55,7 +55,7 @@ export const storeProducts = [
   {
     id: 5,
     title: "HTC Desire 626s",
-    img: "img/product-5.png",
+    img: "https://th.bing.com/th/id/R.701b34769f92b94ce3432ebe6039bab9?rik=m28qAjR5SPwiKg&pid=ImgRaw&r=0",
     price: 24,
     company: "htc",
     info:
@@ -67,7 +67,7 @@ export const storeProducts = [
   {
     id: 6,
     title: "Vintage Iphone",
-    img: "img/product-6.png",
+    img: "https://th.bing.com/th/id/R.441b2730994983754063c5cf61c811e7?rik=rZpP0uc0HbM9xg&pid=ImgRaw&r=0",
     price: 17,
     company: "apple",
     info:
@@ -79,7 +79,7 @@ export const storeProducts = [
   {
     id: 7,
     title: "Iphone 7",
-    img: "img/product-7.png",
+    img: "https://th.bing.com/th/id/OIP.rezZB8Csl_-pXs0DTJIWEQHaEO?rs=1&pid=ImgDetMain",
     price: 30,
     company: "apple",
     info:
@@ -91,7 +91,7 @@ export const storeProducts = [
   {
     id: 8,
     title: "Smashed Iphone",
-    img: "img/product-8.png",
+    img: "https://th.bing.com/th/id/R.bd7f226eaad2bbe4c52a321696a3c48f?rik=Y35CtmEk%2bQl%2f6A&pid=ImgRaw&r=0",
     price: 2,
     company: "apple",
     info:
@@ -105,7 +105,7 @@ export const storeProducts = [
 export const detailProduct = {
   id: 1,
   title: "Google Pixel - Black",
-  img: "img/product-1.png",
+  img: "https://th.bing.com/th/id/R.3d77139ac09901f2e1dcbdd4c366a8fa?rik=cnDJKRo53BHeiQ&pid=ImgRaw&r=0",
   price: 10,
   company: "google",
   info:

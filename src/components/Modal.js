@@ -36,7 +36,7 @@ export default class Modal extends Component {
                     <h5>Article ajouté au panier</h5>
                     <img src={img} className="img-fluid" alt="produit" />
                     <h5>{title}</h5>
-                    <h5 className="text-muted">Prix : {price} $</h5>
+                    <h5 className="text-muted">Prix : {price} XOF</h5>
                     <Link to="/">
                       <ButtonContainer onClick={() => closeModal()}>
                         Continuer les achats
