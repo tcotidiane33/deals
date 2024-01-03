@@ -21,7 +21,7 @@ import {MDBAccordion, MDBAccordionItem, MDBBadge, MDBBreadcrumb, MDBBreadcrumbIt
 
 function App() {
   return (
-    <ProductProvider >
+    <ProductProvider>
       <Router>
         <Navbar />
         <Routes>

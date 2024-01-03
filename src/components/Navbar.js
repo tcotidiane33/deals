@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
 import logo from '../big-deal-logo.png';
 import styled from 'styled-components';
-import { ButtonContainer } from './Button';
+// import { ButtonContainer } from './Button';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
@@ -46,7 +46,7 @@ export default class Navbar extends Component {
                                     className="me-2"
                                     aria-label="Search"
                                 />
-                                <Button variant="outline-success"><i class="fa fa-search" aria-hidden="true"></i></Button>
+                                <Button variant="outline-success">🔍</Button>
                             </Form>
                         </div>
                         {/* <Nav.Link href="/">MarketPlace</Nav.Link> */}
@@ -77,7 +77,7 @@ export default class Navbar extends Component {
                                 </Button>
                             </Nav.Link>
                             <Nav.Link to="/cart" className="ml-auto">
-                                <Button style={{ display: 'inline-flex', justifyContent: 'center', alignItems: 'center', background: 'black', color: 'withe' }} color='info'>
+                                <Button style={{ display: 'inline-flex', justifyContent: 'center', alignItems: 'center', color: 'withe' }} color='info'>
                                     Mes Deals <i class="fa fa-cart" aria-hidden="true"></i>
                                 </Button>
                             </Nav.Link>
@@ -92,7 +92,9 @@ export default class Navbar extends Component {
     }
 }
 const NavWrapper = styled.nav`
-  background: var(--mainBlue);
+//   background: var(--mainBlue);
+    background: #ffa600;
+
   display: flex;
   justify-content: space-between; /* Ajustez cela selon vos besoins */
   align-items: center;
